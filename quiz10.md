@@ -1,9 +1,9 @@
-1 : What is MongoDB
+**1 : What is MongoDB**
 
 MongoDB is a document database and can be installed locally or
 hosted in the cloud.
 
-2: How can we use mongoDB in shell or UI?
+**2: How can we use mongoDB in shell or UI?**
 
 you have to install mongo db in shell via Step 
 
@@ -19,7 +19,7 @@ sudo apt-get install -y mongodb-org
 3- connect your mongo with shell
 mongo "mongodb+srv://cluster0.lqwfl.mongodb.net/myFirstDatabase" --username user
 
-3: How To create database, table and insert data in mongoDB?
+**3: How To create database, table and insert data in mongoDB?**
 
 Method 1
 You can create a collection using the createCollection() database method.
@@ -37,7 +37,7 @@ This method inserts a single object into the database.
 Note: When typing in the shell, after opening an object with curly braces
 
 
-4: How to order by in mongoDB?
+**4: How to order by in mongoDB?**
 
 Find Data
 There are 2 methods to find and select data from a MongoDB collection, find() and findOne().
@@ -48,7 +48,7 @@ Example
 db.posts.find()
 db.posts.findOne()
 
-5: How to update data in mongoDB?
+**5: How to update data in mongoDB?**
 
 Update Document
 To update an existing document we can use the updateOne() or updateMany() methods.
@@ -66,7 +66,7 @@ Update likes on all documents by 1. For this we will use the $inc (increment) op
 db.posts.updateMany({}, { $inc: { likes: 1 } })
 
 
-6: How to delete data in mongoDB?
+**6: How to delete data in mongoDB?**
 
 deleteOne()
 The deleteOne() method will delete the first document that matches the query provided.
@@ -79,7 +79,7 @@ Example
 db.posts.deleteMany({ category: "Technology" })
 
 
-7: How to select data in mongoDB?
+**7: How to select data in mongoDB?**
 
 findOne()
 To select only one document, we can use the findOne() method.

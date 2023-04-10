@@ -1,7 +1,7 @@
-1 : 1. What is postgreSQL?
+**1 : 1. What is postgreSQL?**
 PostgreSQL is an advanced, enterprise class open source relational database that supports both SQL (relational) and JSON (non-relational) querying.
 
-2 : How can we use postgreSQL in shell or UI?
+**2 : How can we use postgreSQL in shell or UI?**
 
 in UI : 
 sudo -u postgres psql
@@ -10,7 +10,7 @@ in SHELL :
 
 psql -U
 
-3. How To create database, table and insert data in postgreSQL?
+**3. How To create database, table and insert data in postgreSQL?**
 
 CREATE TABLE employee (
     emp_id 	INT PRIMARY KEY,
@@ -22,7 +22,7 @@ CREATE TABLE employee (
     salary INT
 
 
-4:  How to order by in postgreSQL?
+**4:  How to order by in postgreSQL?**
 
 When you query data from a table, the SELECT statement returns rows in an unspecified order. To sort the rows of the result set, you use the ORDER BY clause in the SELECT statement.
 
